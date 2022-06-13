@@ -4,11 +4,15 @@
 STR=$(pwd)
 echo $STR
 
-FILE="test.py"
-
-# Read all lines from a file. First part is to simply read all lines, and
-# second part is to also read trailing partial lines.
-while IFS= read -r line || [[ -n "$line" ]];
+# Get every file in this folder
+for file in /Users/martinheberling/Desktop/Projects/todoist/*
 do
-  echo "$line"
-done < $FILE
+  echo "$file"
+  # Read all lines from a file. First part is to simply read all lines, and
+  # second part is to also read trailing partial lines.
+  while IFS= read -r line || [[ -n "$line" ]];
+  do
+    # Print every line
+    echo "$line"
+  done < $file
+done
