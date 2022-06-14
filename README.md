@@ -2,6 +2,7 @@
 Search your current directory for all your remaining todos.
 
 ToDo:
-- [ ] Get current working directory
-- [ ] Load a files contents
-- [ ] Search each line for "TODO"
+- [X] Get current working directory
+- [X] Load a files contents
+- [X] Search each line for "TODO"
+- [ ] Work with nested directories
