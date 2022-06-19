@@ -6,3 +6,5 @@ ToDo:
 - [ ] Program to add to path
 - [ ] Specific testing files?
 - [ ] Check if it works calling from other places.
+- [ ] Support for multi line todos
+- [ ] Add command to exclude certain files
