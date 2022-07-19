@@ -6,3 +6,5 @@ ToDo:
 - [ ] Support for multi line todos
 - [ ] Add command to exclude certain files
   - This adds a further question: should we add arguments?
+- [ ] Add -f flag to only check 1 file.
+  - Add files to ignore?
