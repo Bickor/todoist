@@ -7,4 +7,5 @@ ToDo:
 - [ ] Add command to exclude certain files
   - This adds a further question: should we add arguments?
 - [ ] Add -f flag to only check 1 file.
+- [ ] Add -l flag for how many directory levels it can go.
   - Add files to ignore?
